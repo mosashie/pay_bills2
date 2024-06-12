@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520672454207",
+    "project_id": "paybill-c804c",
+    "storage_bucket": "paybill-c804c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520672454207:android:166c5232389b04b5a37a8a",
+        "android_client_info": {
+          "package_name": "net.appdevs.qrpayuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXsIgNYZzf0KsHQDT2cROklaWMDCfBcsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

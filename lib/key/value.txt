@@ -1,0 +1,455 @@
+PAYBILL
+2.0
+Please Fill Out The Field
+Sign In
+Sign In
+Sign Up
+Sign Up
+Welcome Back
+Country
+Billing Information
+Top UP Information
+Already Have An Account?
+Use Secure & Instant Money Transfer App Now
+Username Or Email Address
+Password
+Forgot Password
+Get Started
+Use PAYBILL app for instant money transfer. Scan or Place this QRcode for receiving money in your wallet. Share this QR for instant money receiving.
+Email Address
+We sent a 6-digit code to your email
+Enter OTP Code From Google Authenticator
+Verified Code
+Submit
+AT&T
+Phone Number
+Please Enter The Code
+Email Verification
+Resend
+xxx xxxx xxx
+PAYBILL-PAY AND GO
+The code is not valid
++1684
++1684 632 5468 783
+Skip
+Next
+Transfer Money, Around The QRcode In A Scond
+Easy, Quick & Secure Cash Moves Installment Door With QR
+Easy, Quick & Secure Cash Moves Installment Door With QR
+Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tenimad minim veniam quis.
+Enter password
+Forgot Password?
+Reset Your Password
+App Not Available
+Permission Denied
+PAYBILL is suddenly not available in the current region/country.
+Take control of your account by resetting your password. Our password recovery page guides you through the necessary steps.
+continues
+Continue
+100.00 USD
+Total Price
+102.00 USD
+Drop your file
+Don’t Have An Account?
+Log in and Stay Connected
+Register an Account Today
+Please agree with term and condition
+Our secure login process ensures the confidentiality of your information. Log in today and stay connected to your finances, anytime and anywhere.
+Become a part of our community by registering for an account today. Enjoy a range of benefits and features tailored to meet your needs.
+Verification Code
+Enter the verification code which one we send you in your email, to verified your account.
+Resend Code
+KYC Form
+Please input all the field for sign in to your account to get access to your dashboard.
+First Name
+Last Name
+Enter First Name
+Enter Last Name
+Enter Email Address
+Select Country
+Select City
+Enter City
+Zip Code
+Enter Zip Code
+Front Part
+Back Part
+Upload Passport / NID / Driving Lic. etc doc for verification
+
+Confirm Password
+Enter Confirm Password
+By using PAYBILL’s you agree to our
+User Agreement.
+or
+Reset your password to get back access to your dashboard again.
+
+Fingerprint
+Fingerprint Authentication
+Use fingerprint to get more secure system
+Complete
+40%
+Confirm
+Skip Now
+
+Facelock
+Facelock Authentication
+Use facelock to get more secure system
+Capture
+
+Wait for Approval
+Wait for your submitted document to be approved by admin panel
+Okay
+Go To Dashboard
+Reload
+Exit
+
+Welcome Back to
+ Sign In with
+Forgot Password?
+New to PAYBILL?
+Enter your Phone Number to Reset your account
+Cancel
+Enter Phone
+
+Reset Password
+New Password
+Enter New Password
+
+Congratulations
+Your password has been reset Successfully, Sign in again now.
+Your money has been send successfully. Thanks for using PAYBILL
+Your money has been add successfully. Thanks for using PAYBILL
+Opss!!
+Card Type
+Value
+Something went wrong, Try again letter.
+
+541.44 USD
+Add Money
+Total Receive
+Total Send Remittance
+Current Balance
+Send
+Active
+Receive
+Remittance
+Virtual Card
+Recent Transactions
+Money Send
+1 Oct 2022
+150.73 AUD
+#TN-20236598
+Money Receive
+29 Sep 2022
+#TN-20236598
+100.00 USD
+269.73 USD
+SCAN QR
+Bill Pay
+Mobile Top Up
+Deposit
+Withdraw
+No bank found
+Make Payment
+Buy Giftcard
+My Giftcard
+
+For Indivisuals
+Use Allpay Scan to pay me
+Specify An Amount
+Save Image
+Transaction History
+
+Money Transfer
+QR Address
+7QRpdfhgb351gaj
+QC0135689
+Recipient
+Archit Barhum
+architbarhum@gmail.com
+Amount
+0.00
+USD
+Transfer Fee:
+2.00 USD
+Paste
+Limit
+10.00 USD - 10000.00 USD
+
+Preview
+TRX2136987
+Transaction No
+No Transaction Available Yet
+Confirm Send
+Entered Amount
+Recipient Information
+Giftcard Information
+Name
+Email
+623 6983 231
+Amount Information
+You Transfer
+Total Payable
+Recipient Received
+98.00 USD
+Your money has been send Successfully. Thanks for using PAYBILL
+Sayok M.
+sayok@gmail.com
+QR Address
+Transfer Success
+Your money has been send Successfully. Thanks for using PAYBILL
+Your money has been withdraw Successfully. Thanks for using PAYBILL
+Your money has been Deposit Successfully. Thanks for using PAYBILL
+Your bill has been paid Successfully. Thanks for using PAYBILL
+Your topup has been done Successfully. Thanks for using PAYBILL
+Back to Home
+Transfer Failed
+Your money has been Failed..!! Try Again! Thanks for using PAYBILL
+Try Again
+Add +
+Notification
+PAYBILL Update
+Update your app right now for more feature
+More Offer
+
+Select Receipient
+Receiving Method
+Select Method
+Sending Amount
+Exchange Rate
+1 USD = 1 USD
+Recipient Get
+Jhons Grill
+jhonsgrill@gmail.comj
+PAYBILL Wallet
+Select Bank
+American Bank
+Cash Pickup
+California
+Select Street
+S. Francisco
+
+Use PAYBILL app for instant money transfer. Scan or Place this QRcode for receiving money in your wallet. Share this QR for instant money receiving.
+Share
+
+Sending Country
+Receiving Country
+Receipient
+ Add Recipient
+ Update Recipient
+Australia
+United State
+Upload Image
+Bank Deposit
+AUD
+
+This card you can be used to pay contactless in stores or online, but has its own unique card number, expiry date, and CVC.
+Activation Fee
+View More Info
+Gift friends with virtual cards
+Delivered instantly by email
+Redeemable for online purchases
+After you buy it, you can show this number.
+Expiry Date
+CVC
+09/11
+963
+Buy Now
+9864 1326 7135 3126
+Details
+Fund
+Transaction
+Transaction Type
+Card Load Type
+Inssuance Fee
+
+Select Bill Category
+Enter Bill Number
+Bill Type
+Bill Number
+Account Number
+Enter Account Number
+Bank Name
+Enter Bank Name
+Pay Bill
+Payment Success
+Electicity
+Charge
+Received Amount
+B/N135678951
+Your bill has been paid Successfully. Thanks for using PAYBILL
+
+Mobile Number
+Load Fee
+Min Load
+Max Load
+Validity
+Monthly Fees
+Enter Mobile Number
+Mobile Top Up Type
+Select Mobile Category
+AT&T Mobility
++1 611 2357 896
+Top Up Now
+Mobile Top Up Success
+Your mobile top up has been Successfull. Thanks for using PAYBILL
+
+Google Play
+Google Play Gift Card
+Category
+5
+5 Cards
+Available
+/cards
+Price/card
+More Info
+Price
+Price/card
+Card Details
+Quantity
+Giftcard Purchase
+0.00 USD
+Sub Category
+Google Play 60
+Your Giftcard has been purchase Successfully. Thanks for using PAYBILL
+
+
+Profile
+My Wallet
+My Virtual Cards
+Update Profile
+Update KYC Form
+2FA Security
+
+9864  5689  4623  1475
++ Buy New Card
+Enter Amount
+Add Fund
+Buy Card
+Add Fund Success
+Your money has been deposit Successfully. Thanks for using PAYBILL
+
+Upload Passport / NID / Driving Lic. etc doc for verification
+Update KYC
+
+Enable 2FA Security
+We’ll ask for a verification code via your security method if we notice a login from an unrecogn-ized device or browser. Enable your 2FA Security
+Send Verification Code
+Your 2FA Security has been activate Successfully.
+
+Transactions Log
+Transaction Log
+Virtual Card Log
+Settings
+Help Center
+Privacy & Policy
+About Us
+Colnel Arichart
+Colnelarichart@gmail.com
+Sign Out
+Saved Receipients
+Giftcard Log
+Bill Payment Log
+Mobile Top Up Log
+
+Adman Warm
+admanwarm@gmail.com
+Anthony Golsambir
+anthony@gmail.com
+Dostan Zim
+zim@gmail.com
+Henry Gems
+henrygems@gmail.com
+Nagasuki
+nagasuki@gmail.com
+Sayok M.
+sayok@gmail.com
+Z. Yaafil
+yaafil@gmail.com
+Wingston
+wingston@gmail.com
+
+CN-20236598
+15.00 USD
+5.00 USD
+10.00 USD
+2379.21 USD
+Redeem Card
+T-Mobile US
+Verizon
+Education
+Gass Bill
+Internet
+Telephone
+TRX-6J9VW3SWKA9Y
+TRX-Netflix 99
+I have agreed with Terms Of Use & Privacy Policy
+Netflix Gift Cards
+Netflix 99
+
+Change Password
+Change Language
+Delete Account
+Old Password
+Enter Old Password
+Paypal Payment
+Flutterwave Payment
+Razorpay Payment
+Pagadito Payment
+We’ll ask for a verification code via your security method if we notice a login from an unrecogn-ized device or browser. Enable your 2FA Security
+'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.'
+Card Holder
+VALID THRU
+Pay Now
+Full Name
+Card Number
+Reloadable
+Not Reloadable
+Account Id
+Card Pan
+Expiration
+City
+State
+Enter State
+Address
+Enter Address
+Zip
+Status
+Block
+Unblock
+DeActivated
+Send Money
+Not Valid User
+Pick Up Point
+Create Card
+Opps! No Datas Here.
+Sign in with touch id
+Do you want to delete your account?
+Verify OTP
+Fees & Charges
+Received
+Total Fee
+Do You Want To Sign Out?
+Make Default
+Remove Default
+Add Money Log
+Withdraw Money Log
+Transfer Money Log
+Send Money Log
+Bill Pay Log
+Remittance Log
+Merchant Payment Log
+Make Payment Log
+Add Sub balance Log
+Tnx
+Total Received
+Remark
+Time and Date
+Sender Amount
+Recipient Amount
+Request Amount
+Fee & Charge
+Top-Up Type
+Card Amount
+Card Masked
+Conversion Amount
+Recipient Name

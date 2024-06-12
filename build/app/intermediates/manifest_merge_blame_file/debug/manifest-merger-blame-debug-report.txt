@@ -1,0 +1,797 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.appdevs.qrpayuser"
+4    android:versionCode="10"
+5    android:versionName="3.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:3:5-67
+15-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:4:5-65
+16-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:4:22-62
+17    <uses-permission
+17-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:5:2-77
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:5:19-74
+19        android:maxSdkVersion="32" />
+19-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:6:2-78
+20-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:6:19-75
+21    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+21-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:7:5-71
+21-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:7:22-69
+22    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+22-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:8:5-73
+22-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:8:22-71
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:9:5-66
+23-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:9:22-63
+24    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+24-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:10:5-79
+24-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:10:22-76
+25    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+25-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:11:5-74
+25-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:11:22-71
+26    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+26-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:12:5-95
+26-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:12:22-92
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:13:5-68
+27-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:13:22-65
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:14:5-77
+28-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:14:22-74
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:15:5-81
+29-->/Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/android/app/src/main/AndroidManifest.xml:15:22-78
+30
+31    <queries>
+31-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+32        <intent>
+32-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+33            <action android:name="android.intent.action.GET_CONTENT" />
+33-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+33-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+34
+35            <data android:mimeType="*/*" />
+35-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+35-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+36        </intent>
+37        <intent>
+37-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+38            <action android:name="android.support.customtabs.action.CustomTabsService" />
+38-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+38-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+39        </intent>
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+42-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+42-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+43    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+43-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+43-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[:connectivity_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+44-->[:connectivity_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+45    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+45-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:25:5-79
+45-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:25:22-76
+46    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+46-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:26:5-88
+46-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:26:22-85
+47    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+47-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:27:5-82
+47-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:27:22-79
+48    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+48-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/EAPPLE/.gradle/caches/transforms-3/098c6b8a0be25c9d2f5272a3d9a11436/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+48-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/EAPPLE/.gradle/caches/transforms-3/098c6b8a0be25c9d2f5272a3d9a11436/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+49-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:22-107
+50
+51    <permission
+51-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+52        android:name="net.appdevs.qrpayuser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="net.appdevs.qrpayuser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+55-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+56    <uses-feature
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+57        android:name="android.hardware.camera"
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+58        android:required="false" />
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+59    <uses-feature
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+60        android:name="android.hardware.camera.front"
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+61        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+62    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+63    <uses-feature
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+64        android:name="android.hardware.camera.autofocus"
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+65        android:required="false" />
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+66    <uses-feature
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+67        android:name="android.hardware.camera.flash"
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+68        android:required="false" />
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+69    <uses-feature
+69-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+70        android:name="android.hardware.screen.landscape"
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+71        android:required="false" />
+71-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+72    <uses-feature
+72-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+73        android:name="android.hardware.wifi"
+73-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+74        android:required="false" />
+74-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+75
+76    <application
+77        android:name="android.app.Application"
+78        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+78-->[androidx.core:core:1.12.0] /Users/EAPPLE/.gradle/caches/transforms-3/2fb2079a15470b11c2fc281050c4fa0a/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+79        android:debuggable="true"
+80        android:extractNativeLibs="false"
+81        android:icon="@mipmap/launcher_icon"
+82        android:label="PAYBILL" >
+83        <activity
+84            android:name="net.appdevs.qrpayuser.MainActivity"
+85            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+86            android:exported="true"
+87            android:hardwareAccelerated="true"
+88            android:launchMode="singleTop"
+89            android:showWhenLocked="true"
+90            android:theme="@style/LaunchTheme"
+91            android:turnScreenOn="true"
+92            android:windowSoftInputMode="adjustResize" >
+93
+94            <!--
+95                 Specifies an Android theme to apply to this Activity as soon as
+96                 the Android process has started. This theme is visible to the user
+97                 while the Flutter UI initializes. After that, this theme continues
+98                 to determine the Window background behind the Flutter UI.
+99            -->
+100            <meta-data
+101                android:name="io.flutter.embedding.android.NormalTheme"
+102                android:resource="@style/NormalTheme" />
+103
+104            <intent-filter>
+105                <action android:name="android.intent.action.MAIN" />
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+108            </intent-filter>
+109        </activity>
+110        <!--
+111             Don't delete the meta-data below.
+112             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+113        -->
+114        <meta-data
+115            android:name="flutterEmbedding"
+116            android:value="2" />
+117
+118        <service
+118-->[:firebase_database] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+119            android:name="com.google.firebase.components.ComponentDiscoveryService"
+119-->[:firebase_database] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:28:13-37
+122            <meta-data
+122-->[:firebase_database] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+123-->[:firebase_database] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:firebase_database] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+125            <meta-data
+125-->[:cloud_firestore] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+126                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+126-->[:cloud_firestore] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:cloud_firestore] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+128            <meta-data
+128-->[:firebase_auth] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+129                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+129-->[:firebase_auth] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[:firebase_auth] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+131            <meta-data
+131-->[:firebase_storage] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+132-->[:firebase_storage] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:firebase_storage] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+134            <meta-data
+134-->[:firebase_core] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+135                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+135-->[:firebase_core] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:firebase_core] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+138                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+138-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+141                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+141-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-database:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/c89fe367fa5ee7cca8dc88a7cd0074cf/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+144                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+144-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+147                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+147-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-firestore:25.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/667d9cba7a3bdb8944d46d616cc6392b/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:37:13-39:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:38:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:39:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+153                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+153-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+156                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+156-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-storage:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/21236f82fd7d0d58a0ee55e4b2802ebe/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+159                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+159-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+162                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+162-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-installations:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/70dd7a66d357f72d2821a8f0cf68a0b5/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+165                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+165-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+168                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+168-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/feddd96cd58d33f64368729e3eee1b87/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/177af2edd67fcf1b83e7fde44251e8ea/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+171                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+171-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/177af2edd67fcf1b83e7fde44251e8ea/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/177af2edd67fcf1b83e7fde44251e8ea/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+174                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+174-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+177                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+177-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+179        </service>
+180
+181        <provider
+181-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+182            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+182-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+183            android:authorities="net.appdevs.qrpayuser.flutter.image_provider"
+183-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+184            android:exported="false"
+184-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+185            android:grantUriPermissions="true" >
+185-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+186            <meta-data
+186-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+187                android:name="android.support.FILE_PROVIDER_PATHS"
+187-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+188                android:resource="@xml/flutter_image_picker_file_paths" />
+188-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+189        </provider>
+190
+191        <receiver
+191-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+192            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+192-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+193            android:exported="false" />
+193-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+194        <receiver
+194-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+195            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+195-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+196            android:exported="false" />
+196-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+197        <receiver
+197-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+198            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+198-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+199            android:exported="false" >
+199-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+200            <intent-filter>
+200-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+201                <action android:name="android.intent.action.BOOT_COMPLETED" />
+201-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+201-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+202                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+202-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+202-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+203                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+203-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+203-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+204                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+204-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+204-->[:flutter_local_notifications] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+205            </intent-filter>
+206        </receiver>
+207
+208        <provider
+208-->[:printing] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/printing/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+209            android:name="net.nfet.flutter.printing.PrintFileProvider"
+209-->[:printing] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/printing/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+210            android:authorities="net.appdevs.qrpayuser.flutter.printing"
+210-->[:printing] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/printing/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-68
+211            android:exported="false"
+211-->[:printing] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/printing/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+212            android:grantUriPermissions="true" >
+212-->[:printing] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/printing/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+213            <meta-data
+213-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+214                android:name="android.support.FILE_PROVIDER_PATHS"
+214-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+215                android:resource="@xml/flutter_printing_file_paths" />
+215-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+216        </provider>
+217
+218        <activity
+218-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+219            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+219-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+220            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+220-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+221            android:exported="false"
+221-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+222            android:theme="@style/AppTheme" />
+222-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+223        <activity
+223-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+224            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+224-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+225            android:exported="false"
+225-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+226            android:theme="@style/ThemeTransparent" />
+226-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+227        <activity
+227-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+228            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+228-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+229            android:exported="false"
+229-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+230            android:theme="@style/ThemeTransparent" />
+230-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+231        <activity
+231-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+232            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+232-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+233            android:exported="false"
+233-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+234            android:launchMode="singleInstance"
+234-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+235            android:theme="@style/ThemeTransparent" />
+235-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+236        <activity
+236-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+237            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+237-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+238            android:exported="false"
+238-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+239            android:launchMode="singleInstance"
+239-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+240            android:theme="@style/ThemeTransparent" />
+240-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+241
+242        <receiver
+242-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+243            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+243-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+244            android:enabled="true"
+244-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+245            android:exported="false" />
+245-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+246
+247        <meta-data
+247-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+248            android:name="io.flutter.embedded_views_preview"
+248-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+249            android:value="true" />
+249-->[:flutter_inappwebview] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+250        <!--
+251           Declares a provider which allows us to store files to share in
+252           '.../caches/share_plus' and grant the receiving action access
+253        -->
+254        <provider
+254-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+255            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+255-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-77
+256            android:authorities="net.appdevs.qrpayuser.flutter.share_provider"
+256-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-74
+257            android:exported="false"
+257-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+258            android:grantUriPermissions="true" >
+258-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+259            <meta-data
+259-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+260                android:name="android.support.FILE_PROVIDER_PATHS"
+260-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+261                android:resource="@xml/flutter_share_file_paths" />
+261-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+262        </provider>
+263        <!--
+264           This manifest declared broadcast receiver allows us to use an explicit
+265           Intent when creating a PendingItent to be informed of the user's choice
+266        -->
+267        <receiver
+267-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
+268            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+268-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
+269            android:exported="false" >
+269-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+270            <intent-filter>
+270-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33:29
+271                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+271-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-65
+271-->[:share_plus] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-62
+272            </intent-filter>
+273        </receiver>
+274
+275        <provider
+275-->[:share] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+276            android:name="io.flutter.plugins.share.ShareFileProvider"
+276-->[:share] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-70
+277            android:authorities="net.appdevs.qrpayuser.flutter.share_provider"
+277-->[:share] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+278            android:exported="false"
+278-->[:share] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+279            android:grantUriPermissions="true" >
+279-->[:share] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+280            <meta-data
+280-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+281                android:name="android.support.FILE_PROVIDER_PATHS"
+281-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+282                android:resource="@xml/flutter_share_file_paths" />
+282-->[:image_picker_android] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+283        </provider>
+284
+285        <property
+285-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:30:9-32:61
+286            android:name="android.adservices.AD_SERVICES_CONFIG"
+286-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:31:13-65
+287            android:resource="@xml/ga_ad_services_config" />
+287-->[com.google.android.gms:play-services-measurement-api:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/6e3e4654f6b649eecc44856c617a85ee/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:32:13-58
+288
+289        <activity
+289-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+290            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+290-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+291            android:excludeFromRecents="true"
+291-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+292            android:exported="true"
+292-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+293            android:launchMode="singleTask"
+293-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+294-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+295            <intent-filter>
+295-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+296                <action android:name="android.intent.action.VIEW" />
+296-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+296-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+297
+298                <category android:name="android.intent.category.DEFAULT" />
+298-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+298-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+299                <category android:name="android.intent.category.BROWSABLE" />
+299-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+299-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+300
+301                <data
+301-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+302                    android:host="firebase.auth"
+303                    android:path="/"
+304                    android:scheme="genericidp" />
+305            </intent-filter>
+306        </activity>
+307        <activity
+307-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+308            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+308-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+309            android:excludeFromRecents="true"
+309-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+310            android:exported="true"
+310-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+311            android:launchMode="singleTask"
+311-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+312            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+312-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+313            <intent-filter>
+313-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+314                <action android:name="android.intent.action.VIEW" />
+314-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+314-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+315
+316                <category android:name="android.intent.category.DEFAULT" />
+316-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+316-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+317                <category android:name="android.intent.category.BROWSABLE" />
+317-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+317-->[com.google.firebase:firebase-auth:23.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/5848c0ba5dfb2cdc3bba9fac82f2aea8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+318
+319                <data
+319-->[:file_picker] /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+320                    android:host="firebase.auth"
+321                    android:path="/"
+322                    android:scheme="recaptcha" />
+323            </intent-filter>
+324        </activity>
+325
+326        <service
+326-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+327            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+327-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+328            android:enabled="true"
+328-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+329            android:exported="false" >
+329-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+330            <meta-data
+330-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+331                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+331-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+332                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+332-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+333        </service>
+334
+335        <activity
+335-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+336            android:name="androidx.credentials.playservices.HiddenActivity"
+336-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+337            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+337-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+338            android:enabled="true"
+338-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+339            android:exported="false"
+339-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+340            android:fitsSystemWindows="true"
+340-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+341            android:theme="@style/Theme.Hidden" >
+341-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/EAPPLE/.gradle/caches/transforms-3/3662d3984a3d230232a7f9725ff4c6cd/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+342        </activity>
+343
+344        <provider
+344-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+345            android:name="com.google.firebase.provider.FirebaseInitProvider"
+345-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+346            android:authorities="net.appdevs.qrpayuser.firebaseinitprovider"
+346-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+347            android:directBootAware="true"
+347-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+348            android:exported="false"
+348-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+349            android:initOrder="100" />
+349-->[com.google.firebase:firebase-common:21.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e3c08dd4adb522ce5cc3b37d8eff6fa6/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+350
+351        <activity
+351-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+352            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+352-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+353            android:excludeFromRecents="true"
+353-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+354            android:exported="false"
+354-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+355-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+356        <!--
+357            Service handling Google Sign-In user revocation. For apps that do not integrate with
+358            Google Sign-In, this service will never be started.
+359        -->
+360        <service
+360-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+361            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+361-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+362            android:exported="true"
+362-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+363            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+363-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+364            android:visibleToInstantApps="true" />
+364-->[com.google.android.gms:play-services-auth:20.7.0] /Users/EAPPLE/.gradle/caches/transforms-3/e1c08946e62c86d7f2e4b978a4220b65/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+365
+366        <receiver
+366-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:29:9-33:20
+367            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+367-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:30:13-85
+368            android:enabled="true"
+368-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:31:13-35
+369            android:exported="false" >
+369-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:32:13-37
+370        </receiver>
+371
+372        <service
+372-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:35:9-38:40
+373            android:name="com.google.android.gms.measurement.AppMeasurementService"
+373-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:36:13-84
+374            android:enabled="true"
+374-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:37:13-35
+375            android:exported="false" />
+375-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:38:13-37
+376        <service
+376-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:39:9-43:72
+377            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+377-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:40:13-87
+378            android:enabled="true"
+378-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:41:13-35
+379            android:exported="false"
+379-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:42:13-37
+380            android:permission="android.permission.BIND_JOB_SERVICE" />
+380-->[com.google.android.gms:play-services-measurement:22.0.0] /Users/EAPPLE/.gradle/caches/transforms-3/e44044e322a3b573cf36926637cc08de/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:43:13-69
+381
+382        <activity
+382-->[com.google.android.gms:play-services-base:18.1.0] /Users/EAPPLE/.gradle/caches/transforms-3/f59fd927cfb26d431b01dc4b7eed2fd0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+383            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+383-->[com.google.android.gms:play-services-base:18.1.0] /Users/EAPPLE/.gradle/caches/transforms-3/f59fd927cfb26d431b01dc4b7eed2fd0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+384            android:exported="false"
+384-->[com.google.android.gms:play-services-base:18.1.0] /Users/EAPPLE/.gradle/caches/transforms-3/f59fd927cfb26d431b01dc4b7eed2fd0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+385            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+385-->[com.google.android.gms:play-services-base:18.1.0] /Users/EAPPLE/.gradle/caches/transforms-3/f59fd927cfb26d431b01dc4b7eed2fd0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+386
+387        <meta-data
+387-->[com.google.android.gms:play-services-basement:18.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/2618897f2932cc6fa2326d5e11445334/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+388            android:name="com.google.android.gms.version"
+388-->[com.google.android.gms:play-services-basement:18.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/2618897f2932cc6fa2326d5e11445334/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+389            android:value="@integer/google_play_services_version" />
+389-->[com.google.android.gms:play-services-basement:18.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/2618897f2932cc6fa2326d5e11445334/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+390
+391        <uses-library
+391-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/EAPPLE/.gradle/caches/transforms-3/0556d60a34bf1d5cd3973e783c301ead/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+392            android:name="android.ext.adservices"
+392-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/EAPPLE/.gradle/caches/transforms-3/0556d60a34bf1d5cd3973e783c301ead/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+393            android:required="false" />
+393-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/EAPPLE/.gradle/caches/transforms-3/0556d60a34bf1d5cd3973e783c301ead/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+394
+395        <provider
+395-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+396            android:name="androidx.startup.InitializationProvider"
+396-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+397            android:authorities="net.appdevs.qrpayuser.androidx-startup"
+397-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+398            android:exported="false" >
+398-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+399            <meta-data
+399-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+400                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+400-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+401                android:value="androidx.startup" />
+401-->[androidx.emoji2:emoji2:1.2.0] /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+402            <meta-data
+402-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/EAPPLE/.gradle/caches/transforms-3/9de88b1cd26d86d98caa1438494e037b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+403                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+403-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/EAPPLE/.gradle/caches/transforms-3/9de88b1cd26d86d98caa1438494e037b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+404                android:value="androidx.startup" />
+404-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/EAPPLE/.gradle/caches/transforms-3/9de88b1cd26d86d98caa1438494e037b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+405            <meta-data
+405-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+406                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+406-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+407                android:value="androidx.startup" />
+407-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+408        </provider>
+409
+410        <uses-library
+410-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+411            android:name="androidx.window.extensions"
+411-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+412            android:required="false" />
+412-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+413        <uses-library
+413-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+414            android:name="androidx.window.sidecar"
+414-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+415            android:required="false" />
+415-->[androidx.window:window:1.0.0-beta04] /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+416
+417        <receiver
+417-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+418            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+418-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+419            android:directBootAware="false"
+419-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+420            android:enabled="true"
+420-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+421            android:exported="true"
+421-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+422            android:permission="android.permission.DUMP" >
+422-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+423            <intent-filter>
+423-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+424                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+424-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+424-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+425            </intent-filter>
+426            <intent-filter>
+426-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+427                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+427-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+427-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+428            </intent-filter>
+429            <intent-filter>
+429-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+430                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+430-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+430-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+431            </intent-filter>
+432            <intent-filter>
+432-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+433                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+433-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+433-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/eb1ec82d48b50ed98f10ac292b3401d0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+434            </intent-filter>
+435        </receiver>
+436
+437        <activity
+437-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+438            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+438-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+439            android:clearTaskOnLaunch="true"
+439-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+440            android:screenOrientation="sensorLandscape"
+440-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+441            android:stateNotNeeded="true"
+441-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+442            android:theme="@style/zxing_CaptureTheme"
+442-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+443            android:windowSoftInputMode="stateAlwaysHidden" />
+443-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/EAPPLE/.gradle/caches/transforms-3/001327aeb978036984bf32a2cc971fa9/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+444    </application>
+445
+446</manifest>

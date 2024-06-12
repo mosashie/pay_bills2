@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "net.appdevs.qrpayuser.app-mergeDebugResources-42:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/EAPPLE/.gradle/caches/transforms-3/562789fa7af390de2c687ea947427725/transformed/appcompat-1.5.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
