@@ -1,0 +1,28 @@
+com.pichillilorenzo.flutter_inappwebview-lifecycle-viewmodel-2.5.1-0 /Users/EAPPLE/.gradle/caches/transforms-3/0507887b5a305112c42b9e0f6e666d84/transformed/lifecycle-viewmodel-2.5.1/res
+com.pichillilorenzo.flutter_inappwebview-jetified-emoji2-1.2.0-1 /Users/EAPPLE/.gradle/caches/transforms-3/096431313d4ea7b2822db26194f88eca/transformed/jetified-emoji2-1.2.0/res
+com.pichillilorenzo.flutter_inappwebview-core-1.8.0-2 /Users/EAPPLE/.gradle/caches/transforms-3/2c1305409ba59a9877a6938034e5d05c/transformed/core-1.8.0/res
+com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-3 /Users/EAPPLE/.gradle/caches/transforms-3/562789fa7af390de2c687ea947427725/transformed/appcompat-1.5.1/res
+com.pichillilorenzo.flutter_inappwebview-jetified-window-java-1.0.0-beta04-4 /Users/EAPPLE/.gradle/caches/transforms-3/6332bda84c0ee71dd6915e036af8444e/transformed/jetified-window-java-1.0.0-beta04/res
+com.pichillilorenzo.flutter_inappwebview-jetified-core-ktx-1.8.0-5 /Users/EAPPLE/.gradle/caches/transforms-3/6419734663bf9c6266d5989eda72cbc1/transformed/jetified-core-ktx-1.8.0/res
+com.pichillilorenzo.flutter_inappwebview-jetified-emoji2-views-helper-1.2.0-6 /Users/EAPPLE/.gradle/caches/transforms-3/669a1657f56de0720f541594d3089592/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.pichillilorenzo.flutter_inappwebview-jetified-lifecycle-viewmodel-savedstate-2.5.1-7 /Users/EAPPLE/.gradle/caches/transforms-3/6e772fb8f68d782c38990360732c0b52/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/res
+com.pichillilorenzo.flutter_inappwebview-lifecycle-runtime-2.5.1-8 /Users/EAPPLE/.gradle/caches/transforms-3/83eac150e8cbde272e3df35d2bd0f067/transformed/lifecycle-runtime-2.5.1/res
+com.pichillilorenzo.flutter_inappwebview-fragment-1.3.6-9 /Users/EAPPLE/.gradle/caches/transforms-3/8601c70afcf900dfe459458e4a28a28a/transformed/fragment-1.3.6/res
+com.pichillilorenzo.flutter_inappwebview-jetified-annotation-experimental-1.1.0-10 /Users/EAPPLE/.gradle/caches/transforms-3/8ee0333d33a34d2bfdc51ccd222a488e/transformed/jetified-annotation-experimental-1.1.0/res
+com.pichillilorenzo.flutter_inappwebview-browser-1.4.0-11 /Users/EAPPLE/.gradle/caches/transforms-3/9d04195f43e6b75db90cdb811519b1f5/transformed/browser-1.4.0/res
+com.pichillilorenzo.flutter_inappwebview-lifecycle-livedata-core-2.5.1-12 /Users/EAPPLE/.gradle/caches/transforms-3/bd2611fd46cba6efdc4ea9a841f5fe5c/transformed/lifecycle-livedata-core-2.5.1/res
+com.pichillilorenzo.flutter_inappwebview-webkit-1.5.0-13 /Users/EAPPLE/.gradle/caches/transforms-3/d3a6e090cbb21fe933055730902a7493/transformed/webkit-1.5.0/res
+com.pichillilorenzo.flutter_inappwebview-jetified-savedstate-1.2.0-14 /Users/EAPPLE/.gradle/caches/transforms-3/d9e068fe16489c248952206024fe8107/transformed/jetified-savedstate-1.2.0/res
+com.pichillilorenzo.flutter_inappwebview-jetified-window-1.0.0-beta04-15 /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/res
+com.pichillilorenzo.flutter_inappwebview-swiperefreshlayout-1.1.0-16 /Users/EAPPLE/.gradle/caches/transforms-3/dda4a258e9cce92c7e3d0eab9c4aea39/transformed/swiperefreshlayout-1.1.0/res
+com.pichillilorenzo.flutter_inappwebview-jetified-appcompat-resources-1.5.1-17 /Users/EAPPLE/.gradle/caches/transforms-3/de56531d6005a4fd92c5884e207c40b2/transformed/jetified-appcompat-resources-1.5.1/res
+com.pichillilorenzo.flutter_inappwebview-jetified-lifecycle-process-2.4.1-18 /Users/EAPPLE/.gradle/caches/transforms-3/e5364dbf9df4ad80d710c955597e40b7/transformed/jetified-lifecycle-process-2.4.1/res
+com.pichillilorenzo.flutter_inappwebview-jetified-startup-runtime-1.1.1-19 /Users/EAPPLE/.gradle/caches/transforms-3/ecd55c217729840b9709951906a7f333/transformed/jetified-startup-runtime-1.1.1/res
+com.pichillilorenzo.flutter_inappwebview-jetified-activity-1.5.1-20 /Users/EAPPLE/.gradle/caches/transforms-3/ff849b19be0e0ed74b8d7a6b0c9bcb2a/transformed/jetified-activity-1.5.1/res
+com.pichillilorenzo.flutter_inappwebview-main-21 /Users/EAPPLE/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/android/src/main/res
+com.pichillilorenzo.flutter_inappwebview-release-22 /Users/EAPPLE/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/android/src/release/res
+com.pichillilorenzo.flutter_inappwebview-resValues-23 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/generated/res/resValues/release
+com.pichillilorenzo.flutter_inappwebview-rs-24 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/generated/res/rs/release
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-25 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-26 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.pichillilorenzo.flutter_inappwebview-merged_res-27 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/flutter_inappwebview/intermediates/merged_res/release

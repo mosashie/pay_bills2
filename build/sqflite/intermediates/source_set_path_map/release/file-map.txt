@@ -1,0 +1,12 @@
+com.tekartik.sqflite-core-1.6.0-0 /Users/EAPPLE/.gradle/caches/transforms-3/3f26bb8167ecbba689589018e1cee809/transformed/core-1.6.0/res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-1 /Users/EAPPLE/.gradle/caches/transforms-3/6332bda84c0ee71dd6915e036af8444e/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-2 /Users/EAPPLE/.gradle/caches/transforms-3/8ee0333d33a34d2bfdc51ccd222a488e/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-3 /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-main-4 /Users/EAPPLE/.pub-cache/hosted/pub.dev/sqflite-2.3.2/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/EAPPLE/.pub-cache/hosted/pub.dev/sqflite-2.3.2/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/sqflite/intermediates/merged_res/release

@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
+import 'package:http/http.dart';
 
 import '../../backend/local_storage/local_storage.dart';
 import '../../backend/model/app_settings/app_settings_model.dart';
@@ -14,17 +15,22 @@ class AppSettingsController extends GetxController {
   RxBool isVisible = false.obs;
   @override
   void onInit() {
-    getSplashAndOnboardData().then((value) {
-      Timer(const Duration(seconds: 6), () {
-        isVisible.value = true;
-      });
-    });
+    gets();
     super.onInit();
   }
 
-  final _isLoading = false.obs;
-  bool get isLoading => _isLoading.value;
+  void gets() {
+    getSplashAndOnboardData().then((value) {
+      isVisible.value = true;
+      print("start");
+      Timer(const Duration(seconds: 2), () {
+        isVisible.value = true;
+      });
+    });
+  }
 
+  var _isLoading = false.obs;
+  bool get isLoading => _isLoading.value;
   late AppSettingsModel _appSettingsModel;
   AppSettingsModel get appSettingsModel => _appSettingsModel;
 
@@ -54,8 +60,6 @@ class AppSettingsController extends GetxController {
           ),
         );
       }
-
-      update();
       _isLoading.value = false;
       update();
     }).catchError((onError) {

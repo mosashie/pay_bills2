@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -26,14 +28,25 @@ class _OnboardScreenState extends State<OnboardScreen> {
   //final controller = Get.put(OnBoardController());
 
   final appSettingsController = Get.put(AppSettingsController());
+  FocusNode _focusNode = FocusNode();
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
+    Timer(const Duration(seconds: 4), () {
+      print("don");
+    });
     getstate();
   }
 
+  bool iss = true;
   void getstate() {
+    Timer(const Duration(seconds: 4), () {
+      _focusNode.requestFocus();
+      setState(() {
+        iss = false;
+      });
+    });
     setState(() {
       print("hello world");
     });
@@ -47,63 +60,71 @@ class _OnboardScreenState extends State<OnboardScreen> {
           return ResponsiveLayout(
             mobileScaffold: Scaffold(
                 backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-                body: Column(children: [
-                  SizedBox(
-                    height: MediaQuery.of(context).size.height,
-                    child: PageView.builder(
-                      physics: const BouncingScrollPhysics(),
-                      controller: controller.pageController,
-                      onPageChanged: controller.selectedIndex,
-                      itemCount: appSettingsController.onboardScreen.length,
-                      itemBuilder: (context, index) {
-                        var data = appSettingsController.onboardScreen[index];
-                        return Stack(
-                          children: [
-                            Positioned(
-                              top: 10,
-                              child: CachedNetworkImage(
-                                height: MediaQuery.of(context).size.height,
-                                imageUrl:
-                                    "${ApiEndpoint.mainDomain}/${appSettingsController.appSettingsModel.data.imagePath}/${data.image}",
-                                placeholder: (context, url) => Container(),
-                                errorWidget: (context, url, error) =>
-                                    Container(),
-                              ),
-                            ),
-                            Column(
-                              mainAxisAlignment: mainEnd,
-                              children: [
-                                _bottomContainerWidget(context,
-                                    child: Column(
-                                      children: [
-                                        _titleAndSubTitleWidget(
-                                            context, index, data),
-                                        Padding(
-                                          padding: EdgeInsets.symmetric(
-                                            vertical:
-                                                Dimensions.marginSizeVertical *
-                                                    0.35,
-                                          ),
-                                          child: Row(
-                                            mainAxisAlignment: mainSpaceBet,
+                body: iss == true
+                    ? Center(child: CircularProgressIndicator())
+                    : Column(children: [
+                        SizedBox(
+                          height: MediaQuery.of(context).size.height,
+                          child: PageView.builder(
+                            physics: const BouncingScrollPhysics(),
+                            controller: controller.pageController,
+                            onPageChanged: controller.selectedIndex,
+                            itemCount:
+                                appSettingsController.onboardScreen.length,
+                            itemBuilder: (context, index) {
+                              var data =
+                                  appSettingsController.onboardScreen[index];
+                              return Stack(
+                                children: [
+                                  Positioned(
+                                    top: 10,
+                                    child: CachedNetworkImage(
+                                      height:
+                                          MediaQuery.of(context).size.height,
+                                      imageUrl:
+                                          "${ApiEndpoint.mainDomain}/${appSettingsController.appSettingsModel.data.imagePath}/${data.image}",
+                                      placeholder: (context, url) =>
+                                          Container(),
+                                      errorWidget: (context, url, error) =>
+                                          Container(),
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisAlignment: mainEnd,
+                                    children: [
+                                      _bottomContainerWidget(context,
+                                          child: Column(
                                             children: [
-                                              _skipButtonWidget(context),
-                                              Obx(() => controller.dotWidget()),
-                                              Obx(() =>
-                                                  controller.arrowWidget()),
+                                              _titleAndSubTitleWidget(
+                                                  context, index, data),
+                                              Padding(
+                                                padding: EdgeInsets.symmetric(
+                                                  vertical: Dimensions
+                                                          .marginSizeVertical *
+                                                      0.35,
+                                                ),
+                                                child: Row(
+                                                  mainAxisAlignment:
+                                                      mainSpaceBet,
+                                                  children: [
+                                                    _skipButtonWidget(context),
+                                                    Obx(() =>
+                                                        controller.dotWidget()),
+                                                    Obx(() => controller
+                                                        .arrowWidget()),
+                                                  ],
+                                                ),
+                                              )
                                             ],
-                                          ),
-                                        )
-                                      ],
-                                    )),
-                              ],
-                            ),
-                          ],
-                        );
-                      },
-                    ),
-                  ),
-                ])),
+                                          )),
+                                    ],
+                                  ),
+                                ],
+                              );
+                            },
+                          ),
+                        ),
+                      ])),
           );
         });
   }

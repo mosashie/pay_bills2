@@ -1,0 +1,12 @@
+io.flutter.plugins.connectivity-core-1.6.0-0 /Users/EAPPLE/.gradle/caches/transforms-3/3f26bb8167ecbba689589018e1cee809/transformed/core-1.6.0/res
+io.flutter.plugins.connectivity-jetified-window-java-1.0.0-beta04-1 /Users/EAPPLE/.gradle/caches/transforms-3/6332bda84c0ee71dd6915e036af8444e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.connectivity-jetified-annotation-experimental-1.1.0-2 /Users/EAPPLE/.gradle/caches/transforms-3/8ee0333d33a34d2bfdc51ccd222a488e/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.connectivity-jetified-window-1.0.0-beta04-3 /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.connectivity-main-4 /Users/EAPPLE/.pub-cache/hosted/pub.dev/connectivity-3.0.6/android/src/main/res
+io.flutter.plugins.connectivity-release-5 /Users/EAPPLE/.pub-cache/hosted/pub.dev/connectivity-3.0.6/android/src/release/res
+io.flutter.plugins.connectivity-pngs-6 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/generated/res/pngs/release
+io.flutter.plugins.connectivity-resValues-7 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/generated/res/resValues/release
+io.flutter.plugins.connectivity-rs-8 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/generated/res/rs/release
+io.flutter.plugins.connectivity-mergeReleaseResources-9 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.connectivity-mergeReleaseResources-10 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.connectivity-merged_res-11 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity/intermediates/merged_res/release

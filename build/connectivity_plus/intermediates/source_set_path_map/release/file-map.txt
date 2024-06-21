@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0 /Users/EAPPLE/.gradle/caches/transforms-3/3f26bb8167ecbba689589018e1cee809/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-1 /Users/EAPPLE/.gradle/caches/transforms-3/6332bda84c0ee71dd6915e036af8444e/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-2 /Users/EAPPLE/.gradle/caches/transforms-3/8ee0333d33a34d2bfdc51ccd222a488e/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-3 /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /Users/EAPPLE/.pub-cache/hosted/pub.dev/connectivity_plus-2.3.9/android/src/main/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /Users/EAPPLE/.pub-cache/hosted/pub.dev/connectivity_plus-2.3.9/android/src/release/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/connectivity_plus/intermediates/merged_res/release

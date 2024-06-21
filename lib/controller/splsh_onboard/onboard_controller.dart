@@ -11,7 +11,7 @@ import '../app_settings/app_settings_controller.dart';
 
 class OnBoardController extends GetxController {
   var selectedIndex = 0.obs;
-  var pageController = PageController();
+  var pageController = PageController(initialPage: 0);
   final controller = Get.put(AppSettingsController());
 
   bool get isLastPage =>
@@ -20,7 +20,7 @@ class OnBoardController extends GetxController {
 
   bool get isFirstPage => selectedIndex.value == 0;
 
-  // bool get isSecondPage => selectedIndex.value == 1;
+  bool get isSecondPage => selectedIndex.value == 1;
 
   void nextPage() {
     if (isLastPage) {
@@ -101,7 +101,7 @@ class OnBoardController extends GetxController {
 
   @override
   void onInit() {
-    // TODO: implement onInit
+    update();
     super.onInit();
   }
 }

@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-0 /Users/EAPPLE/.gradle/caches/transforms-3/3f26bb8167ecbba689589018e1cee809/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.4.2-1 /Users/EAPPLE/.gradle/caches/transforms-3/4e8d905b21e306a3c09a78535bccfd8a/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-2 /Users/EAPPLE/.gradle/caches/transforms-3/6332bda84c0ee71dd6915e036af8444e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-3 /Users/EAPPLE/.gradle/caches/transforms-3/8ee0333d33a34d2bfdc51ccd222a488e/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-4 /Users/EAPPLE/.gradle/caches/transforms-3/9d04195f43e6b75db90cdb811519b1f5/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-5 /Users/EAPPLE/.gradle/caches/transforms-3/a17250a060181c06162ff86d937faa6f/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-6 /Users/EAPPLE/.gradle/caches/transforms-3/daa1672b10e4693a153c21ec548afd2d/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.1-7 /Users/EAPPLE/.gradle/caches/transforms-3/ecc567759b60cd13a19f46d7e6aa6dcf/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 /Users/EAPPLE/.pub-cache/hosted/pub.dev/firebase_auth-4.17.8/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 /Users/EAPPLE/.pub-cache/hosted/pub.dev/firebase_auth-4.17.8/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /Users/EAPPLE/Documents/flutterDev/fiverr/paybill_source_code 2/build/firebase_core/intermediates/packaged_res/release

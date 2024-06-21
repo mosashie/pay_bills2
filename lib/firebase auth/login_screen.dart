@@ -31,6 +31,7 @@ class LoginScreen extends StatelessWidget {
   }
 }
 
+// today commit -m hello world how about you
 String selectedCountry = 'Kenya';
 
 class LoginForm extends StatefulWidget {
@@ -70,6 +71,7 @@ class _LoginFormState extends State<LoginForm> {
     // Ensure phone number and password are not empty
     if (_phonenumController.text.trim().isEmpty ||
         _passwordController.text.trim().isEmpty) {
+      print('Phone number and password cannot be empty');
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Phone number and password cannot be empty'),
@@ -139,7 +141,9 @@ class _LoginFormState extends State<LoginForm> {
         '${selectedCountry.toLowerCase()}${_phonenumController.text.trim()}@paybill.com';
     print(email);
     print("Api request link => ${ApiServices.loginApi(body: {
-          'email': email,
+          // 'email' email,   Farrukh Changed to
+          'mobileno': //this
+              '${countryCodes[selectedCountry].toString().substring(1)}${_phonenumController.text}', //
           'password': _passwordController.text
         })}");
 
