@@ -41,7 +41,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
 
   bool iss = true;
   void getstate() {
-    Timer(const Duration(seconds: 4), () {
+    Timer(const Duration(seconds: 6), () {
       _focusNode.requestFocus();
       setState(() {
         iss = false;
